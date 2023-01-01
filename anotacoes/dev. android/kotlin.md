@@ -44,5 +44,7 @@ String = palavras
 Char = apenas um caractere
 
 alguns desses dados pedem que sejam adicionados letra especificas a frente do numero, exemplo n° 10:
-Float = 10f
-Long = 10L
+<p> Float = 10f
+<p> Long = 10L
+    
+------------------------------------
