@@ -19,7 +19,7 @@ Mutavéis - que podem receber um novo valor
 Imutavéis
     val - não se alteram
 
-- Tipos de dados
+-- Tipos de dados
     para tratar de variavéis ou parâmetros é sempre bom especificar seu tipo.
 
 * Double  //  64
@@ -48,3 +48,30 @@ alguns desses dados pedem que sejam adicionados letra especificas a frente do nu
 <p> Long = 10L
     
 ------------------------------------
+
+Operadores aritméticos
+    
+    +  // soma
+    -  // subtrai
+    *  // multiplica
+    /  // dividi
+    %  // resto da divisão
+   
+-----------------------------------------    
+    
+### funções 
+
+    funções se escrevem da seguinte forma
+    
+    declaração nomedafuncao(variavel: tipo): retorno da função{
+        ação
+    }
+    
+    
+    exemplo:
+    
+~~~
+fun nomedafuncao(nome: String): String {
+    return "Olá, $nome"
+}
+~~~
