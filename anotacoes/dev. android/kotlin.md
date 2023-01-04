@@ -63,7 +63,7 @@ Operadores aritméticos
 
     funções se escrevem da seguinte forma
     
-    declaração nomedafuncao(variavel: tipo): retorno da função{
+    declaração nomedafuncao ( variavel: tipo ) : retorno da função {
         ação
     }
     
@@ -75,3 +75,40 @@ fun nomedafuncao(nome: String): String {
     return "Olá, $nome"
 }
 ~~~
+
+---------------------------------------------
+    
+ ### Controles de fluxo 
+    
+~~~
+    if (condição) {
+    println("Olá, MUndo!")
+    }
+~~~
+    
+Operador 
+    
+    - Comparação
+    
+    > maior
+    < menor
+    <= menor ou igual
+    >= maior ou igual
+    
+    == igual
+    != diferente
+    ! negação
+    
+    - Lógicos
+    
+    && conjução ou "e"
+    ││ disjunção ou "ou"
+    
+    
+   - Ordem de execução
+    
+    Parênteses
+    Negação
+    Conjução
+    Disjunção
+    
